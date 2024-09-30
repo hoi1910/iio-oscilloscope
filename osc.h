@@ -40,7 +40,7 @@ extern bool str_endswith(const char *str, const char *needle);
 extern void math_expression_objects_clean(void);
 
 /* Max 1 Meg (2^20) */
-#define MAX_SAMPLES 0x7FFFFFFF
+#define MAX_SAMPLES INT_MAX
 #define TMP_INI_FILE "/tmp/.%s.tmp"
 #ifndef MAX_MARKERS
 #define MAX_MARKERS 10
